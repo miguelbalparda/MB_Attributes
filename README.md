@@ -1,2 +1,4 @@
 # MB_Attributes
-Add attributes to Shopping Cart Price Rule/coupon in Magento
+
+Simple module to add attributes to Shopping Cart Price Rule/coupon in Magento 1.x.
+

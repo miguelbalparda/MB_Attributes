@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MB_Attributes>
+            <version>0.1.1</version>
+        </MB_Attributes>
+    </modules>
+    <global>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <promo_quote_edit_tab_main>MB_Attributes_Block_Adminhtml_Edit_Tab_Main</promo_quote_edit_tab_main>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+		<resources> 
+		    <mbattributes_setup>
+		        <setup>
+		            <module>MB_Attributes</module>
+		        </setup>
+		        <connection>
+		            <use>core_setup</use>
+		        </connection>
+		    </mbattributes_setup>
+		</resources>
+    </global>
+</config>
